@@ -56,7 +56,7 @@ export const Search: React.FC = () => {
       destData[0]?.lat,
       destData[0]?.lng
     );
-  }, [cities, searchParams]);
+  }, [cities, searchParams]); // eslint-disable-line
 
   return (
     <Box sx={{ width: 500, mx: "auto", pt: 20 }}>
